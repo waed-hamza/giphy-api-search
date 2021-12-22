@@ -66,5 +66,13 @@ main {
 }
 
 #gif-container {
-    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+#gif-container div {
+    padding: 10px;
 }
